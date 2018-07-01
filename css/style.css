@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+h1{
+	font-family: 'Libre Baskerville', serif;
+}
+
+p{
+	font-family: 'Avenir', 'Nunito', sans-serif;
+	font-size: 125%;
+	padding-bottom: 1%;
+}
+
+#regions_map{
+	width: 80%;
+	height: 80%;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#image_caption{
+	text-align: center;
+	font-family: 'Avenir', 'Nunito', sans-serif;
+	margin-top:1%;
+	margin-bottom: 3%;
+}
+
+.photo-element{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.photo-element-right{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.photo-element-feature{
+	max-height: 70vh;
+	max-width: 100%;
+	position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo-element-title{
+	font-family: 'Libre Baskerville', 'Nunito', sans-serif;
+	background-color: yellow;
+	padding: 1%;
+	width: 50%;
+}
+
+.horizontal-line{
+	background-color: #000;
+	height: 1px;
+	width: 100%;
+	display: inline-block;
+}
+
+.bottom-of-page p{
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+}
