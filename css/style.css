@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 @media (max-width: 767px){
@@ -8,8 +8,19 @@
 	}
 }
 
-h2{
-	font-family: 'Libre Baskerville', serif;
+@media (min-width: 767px){
+	.container{
+		margin-top: 1% !important;
+		margin-bottom: 1% !important;
+	}
+}
+
+.container{
+	border: 7px solid #DCB239;
+}
+
+h1{
+	font-family: 'Secular One', sans-serif;
 	text-align: center;
 }
 
@@ -17,6 +28,8 @@ p{
 	font-family: 'Avenir', 'Nunito', sans-serif;
 	font-size: 125%;
 	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 #regions_map{
@@ -32,6 +45,8 @@ p{
 	font-family: 'Avenir', 'Nunito', sans-serif;
 	margin-top:1%;
 	margin-bottom: 3%;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 .photo-element{
@@ -52,8 +67,8 @@ p{
 }
 
 .photo-element-title{
-	font-family: 'Libre Baskerville', 'Nunito', sans-serif;
-	background-color: yellow;
+	font-family: 'Secular One', 'Nunito', sans-serif;
+	background-color: #BFD8D2;
 	padding: 1%;
 	width: 50%;
 }
@@ -70,6 +85,6 @@ p{
 }
 
 .bottom-of-page p{
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Nunito', sans-serif;
 	text-align: center;
 }
